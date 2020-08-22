@@ -9,7 +9,7 @@ import { ISales } from 'app/shared/model/sales.model';
 import { IRootState } from 'app/shared/reducers';
 import { getEntity, deleteEntity } from './sales.reducer';
 
-export interface ISalesDeleteDialogProps extends StateProps, DispatchProps, RouteComponentProps<{ id: string }> {}
+export interface ISalesDeleteDialogProps extends StateProps, DispatchProps, RouteComponentProps<{ id: string }> { }
 
 export const SalesDeleteDialog = (props: ISalesDeleteDialogProps) => {
   useEffect(() => {
@@ -47,7 +47,7 @@ export const SalesDeleteDialog = (props: ISalesDeleteDialogProps) => {
           &nbsp;
           <Translate contentKey="entity.action.cancel">Cancel</Translate>
         </Button>
-        <Button id="jhi-confirm-delete-sales" color="danger" onClick={confirmDelete}>
+        <Button id="jhi-confirm-delete-sales" color='primary' onClick={confirmDelete}>
           <FontAwesomeIcon icon="trash" />
           &nbsp;
           <Translate contentKey="entity.action.delete">Delete</Translate>
