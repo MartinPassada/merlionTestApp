@@ -6,7 +6,6 @@ import { AvFeedback, AvForm, AvGroup, AvInput, AvField } from 'availity-reactstr
 import { Translate, translate, ICrudGetAction, ICrudGetAllAction, ICrudPutAction } from 'react-jhipster';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IRootState } from 'app/shared/reducers';
-
 import { getEntity, updateEntity, createEntity, reset } from './sales.reducer';
 import { ISales } from 'app/shared/model/sales.model';
 import { convertDateTimeFromServer, convertDateTimeToServer, displayDefaultDateTime } from 'app/shared/util/date-utils';
