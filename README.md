@@ -1,4 +1,4 @@
-**Ejercicio Final - Maquetador - Merlion Tech **
+**Ejercicio Final - Maquetador - Merlion Tech**
 
 # Test
 
